@@ -34,7 +34,7 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/avast/apkverifier/internal/asn1andr"
+	"github.com/appflight/apkverifier/internal/asn1andr"
 )
 
 const tagNull = 5

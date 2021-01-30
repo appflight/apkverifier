@@ -8,7 +8,7 @@ import (
 	"crypto/x509"
 	"encoding/hex"
 	"fmt"
-	"github.com/avast/apkverifier/signingblock"
+	"github.com/appflight/apkverifier/signingblock"
 	"math/big"
 	"sort"
 	"time"

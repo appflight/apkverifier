@@ -6,7 +6,7 @@ import (
 	"crypto/x509"
 	"encoding/hex"
 	"fmt"
-	"github.com/avast/apkverifier/apilevel"
+	"github.com/appflight/apkverifier/apilevel"
 	"io"
 	"strings"
 )

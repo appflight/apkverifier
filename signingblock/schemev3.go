@@ -9,7 +9,7 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/avast/apkverifier/apilevel"
+	"github.com/appflight/apkverifier/apilevel"
 	"sort"
 )
 

@@ -7,9 +7,9 @@ import (
 	"fmt"
 	"math"
 
-	"github.com/avast/apkverifier/internal/x509andr"
+	"github.com/appflight/apkverifier/internal/x509andr"
 
-	"github.com/avast/apkverifier/apilevel"
+	"github.com/appflight/apkverifier/apilevel"
 
 	"crypto/x509"
 )

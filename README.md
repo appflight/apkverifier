@@ -1,16 +1,16 @@
 # apkverifier
 
-[![GoDoc](https://godoc.org/github.com/avast/apkverifier?status.svg)](https://godoc.org/github.com/avast/apkverifier)
-[![Build Status](https://travis-ci.org/avast/apkverifier.svg?branch=master)](https://travis-ci.org/avast/apkverifier)
+[![GoDoc](https://godoc.org/github.com/appflight/apkverifier?status.svg)](https://godoc.org/github.com/appflight/apkverifier)
+[![Build Status](https://travis-ci.org/appflight/apkverifier.svg?branch=master)](https://travis-ci.org/appflight/apkverifier)
 
 APK signature verification, should support all algorithms and both scheme v1 and v2,
 including downgrade attack protection.
 
 **Works with Go 1.9 or higher.**
 
-Documentation on [GoDoc](https://godoc.org/github.com/avast/apkverifier)
+Documentation on [GoDoc](https://godoc.org/github.com/appflight/apkverifier)
 
-    go get github.com/avast/apkverifier
+    go get github.com/appflight/apkverifier
 
 ## Vendored stuff
 Because Android can handle even broken x509 cerficates and ZIP files, apkverifier is using the ZipReader from apkparser
@@ -25,7 +25,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/avast/apkverifier"
+	"github.com/appflight/apkverifier"
 	"os"
 )
 

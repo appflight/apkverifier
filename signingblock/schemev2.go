@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"crypto"
 	"encoding/binary"
-	"github.com/avast/apkverifier/apilevel"
+	"github.com/appflight/apkverifier/apilevel"
 )
 
 const (

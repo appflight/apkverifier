@@ -3,7 +3,7 @@ package apkverifier
 import (
 	"errors"
 	"fmt"
-	"github.com/avast/apkparser"
+	"github.com/appflight/apkparser"
 	"io/ioutil"
 	"strings"
 )

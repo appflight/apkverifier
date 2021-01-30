@@ -19,9 +19,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/avast/apkverifier/internal/asn1andr"
+	"github.com/appflight/apkverifier/internal/asn1andr"
 
-	"github.com/avast/apkverifier/internal/x509andr"
+	"github.com/appflight/apkverifier/internal/x509andr"
 
 	_ "crypto/sha1" // for crypto.SHA1
 )

@@ -24,12 +24,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/avast/apkverifier/apilevel"
+	"github.com/appflight/apkverifier/apilevel"
 
 	"crypto/ecdsa"
 
-	"github.com/avast/apkparser"
-	"github.com/avast/apkverifier/fullsailor/pkcs7"
+	"github.com/appflight/apkparser"
+	"github.com/appflight/apkverifier/fullsailor/pkcs7"
 )
 
 // These two arrays are synchronized
